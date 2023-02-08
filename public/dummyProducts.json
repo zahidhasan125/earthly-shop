@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/4sH7j6n/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/NtzrS7M/2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/HHGc3RR/3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/stw3TVV/4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/cJWjW2v/5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Sustainable Kit",
+        "price": 5,
+        "details": "srfdf",
+        "img": "https://i.ibb.co/WNhf2RP/6.webp"
+    }
+]
