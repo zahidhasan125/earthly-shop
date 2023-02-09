@@ -1,44 +1,159 @@
 [
     {
         "id": 1,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/4sH7j6n/1.webp"
+        "name": "Sustainability Starter Kit",
+        "price": 10.99,
+        "details": "This starter kit is all you need to start the revolution. Consists of:",
+        "img": "https://i.ibb.co/4sH7j6n/1.webp",
+        "items": [
+            "2 Bamboo Straws",
+            "1 Plant Based Reusable Cup with 2 lids",
+            "1 Natural Loofah",
+            "1 box of 50 Bamboo Cotton Eartips",
+            "1 Bamboo Toothbrush"
+        ],
+        "features": [
+            "Govt Approved, Tested, and approved in TUV Rhineland, Germany",
+            "100% recyclable and non-toxic",
+            "Leak-Proof",
+            "Odorless tasteless and doesn’t react with hot beverages",
+            "Lightweight",
+            "Microwavable"
+        ],
+        "gallery": [
+            "https://i.ibb.co/4sH7j6n/1.webp",
+            "https://i.ibb.co/NtzrS7M/2.webp",
+            "https://i.ibb.co/HHGc3RR/3.webp",
+            "https://i.ibb.co/stw3TVV/4.webp",
+            "https://i.ibb.co/WNhf2RP/6.webp",
+            "https://i.ibb.co/cJWjW2v/5.webp"
+        ]
     },
     {
         "id": 2,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/NtzrS7M/2.webp"
+        "name": "Plant Based Reusable Cups",
+        "price": 2.99,
+        "details": "Barista's love it! Easy to clean, hassle free and Plant Based. Sourced from local farmers, plant residue from Bamboo, Wheat, Rice, and Barley is processed and molded into reusable cups which can be used hundreds of times. So, every batch is unique, Just. Like. You.",
+        "img": "https://i.ibb.co/NtzrS7M/2.webp",
+        "features": [
+            "Every batch of cups is unique due to being natural.",
+            "Lids available in different Colours.",
+            "Designed in USA. ",
+            "Govt Approved, Tested, and approved in TUV, Germany",
+            "100% recyclable and non-toxic",
+            "Leak-Proof",
+            "Odorless tasteless and doesn’t react with hot beverages",
+            "Lightweight",
+            "Microwavable"
+        ],
+        "careGuide": [
+            "Rinse Under Tap.",
+            "Place the cup and the lid separately on top shelf of the dishwasher."
+        ],
+        "gallery": [
+            "https://static.wixstatic.com/media/ead566_ea60d9df9d794e5295383cb7773b9b23~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_be12cf35ae454264874d19841803bf17~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_839d3aef22914113bbfcc874f195f0bd~mv2.jpg",
+            "https://i.ibb.co/NtzrS7M/2.webp"
+        ]
     },
     {
         "id": 3,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/HHGc3RR/3.webp"
+        "name": "Reusable Bamboo Straws",
+        "price": 1.99,
+        "details": "We collaborated with artisans in Veitnam, Earthly Organic Bamboo Straws are 100% Compostable, Vegan and BPA free. They can be reused, thrown in a compost bin, or even in your backyard. Serve with cold beverages like ice tea, cold coffee and many more.",
+        "img": "https://i.ibb.co/HHGc3RR/3.webp",
+        "gallery": [
+            "https://static.wixstatic.com/media/ead566_f00cb71f38d7415eacd2c60085f51907~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_c80f4be6e6e140ccae6bd9d03ce38d7b~mv2.jpg",
+            "https://i.ibb.co/HHGc3RR/3.webp",
+            "https://static.wixstatic.com/media/ead566_be02f988bdbf4654aebc7157d8b809ea~mv2.jpg"
+        ],
+        "features": [
+            "100% natural, toxic-free, vegan ",
+            "Odorless, tasteless, washable, reusable, durable",
+            "Eco-friendly and sustainable",
+            "100% Cruelty-free",
+            "Hand-made by Local Artisans",
+            "Biodegradable packaging"
+        ],
+        "careGuide": [
+            "Wash it with clean water under the tap. ",
+            "Put it in the dishwasher. ",
+            "Boil in water for a few minutes."
+        ]
     },
     {
         "id": 4,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/stw3TVV/4.webp"
+        "name": "Natural Bamboo Loofah",
+        "price": 3.99,
+        "details": "Natural loofah sponges actually come from the fruits of vine-growing Luffa plants. These plants are part of the gourd family (Cucurbitaceae) making them relatives of watermelons, cucumbers and pumpkins. When a luffa fruit dries out and is peeled, you are left with its fibrous interior, which can be used as a sponge. It is biodegradable and is an organic, eco-friendly exfoliating body scrubber. Both men and women can use it, suitable for shower and bathtub.",
+        "img": "https://i.ibb.co/stw3TVV/4.webp",
+        "gallery": [
+            "https://static.wixstatic.com/media/ead566_bb684fa9db814a0783631430b46f33bb~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_ecbffa5556214eca8d97e1b51f708b43~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_53fee492eec5419ca7e0bb73ba1c7f26~mv2.jpg",
+            "https://i.ibb.co/stw3TVV/4.webp"
+        ],
+        "features": [
+            "Plant-based material; Better for the skin - No Chemicals",
+            "Exfoliation - Removing dead skin cells not only improves the look of your skin, it also sweeps away places where bacteria and soil could collect.",
+            "Improving Circulation - Unlike harshly abrasive scrubbers and sponges, a loofah's firm but elastic fibers are round in cross section and are less likely to scratch skin"
+        ],
+        "howToUse": [
+            "Wet the loofah or soak it in water ",
+            "Apply soap or body wash",
+            "Gently rub the loofah against your skin in circular motions."
+        ]
     },
     {
         "id": 5,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/cJWjW2v/5.webp"
+        "name": "Bamboo Toothbrush (set of 2)",
+        "price": 4.49,
+        "details": "Earthly Bamboo Toothbrush are BPA free, Biodegradable and have charcoal infused bristles that help remove stains effectively. We guarantee your satisfaction. See for yourself!",
+        "img": "https://i.ibb.co/WNhf2RP/6.webp",
+        "gallery": [
+            "https://static.wixstatic.com/media/ead566_15c1739b1d054071b975f1fdee7a8759~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_d0d44da1e53a4dd390e39679665160a9~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_6be0fd8f737649beb1c4595837f479e3~mv2.jpg"
+        ],
+        "features": [
+            "100% natural and toxic-free",
+            "Vegan product",
+            "Eco friendly and sustainable",
+            "Made by Indian Artisans",
+            "Aesthetically pleasing design",
+            "Zero-Plastic, biodegradable packaging"
+        ],
+        "careGuide": [
+            "Wash your best eco-friendly toothbrushes with water to avoid any kind of bacteria growth.",
+            "Make sure there is no ingredient left on bristles.",
+            "Keep it in a dry and safe place."
+        ]
     },
     {
         "id": 6,
-        "name": "Sustainable Kit",
-        "price": 5,
-        "details": "srfdf",
-        "img": "https://i.ibb.co/WNhf2RP/6.webp"
+        "name": "Plant Based Reusable Containers",
+        "price": 2.99,
+        "details": "Sourced from local farmers, plant residue from Bamboo, Wheat, Rice, and Barley is processed and molded into reusable containers which can be used hundreds of times. Microwave safe, seal proof, and sturdy, they are perfect to store snacks or lunch. Designed in USA. Tested in Germany.",
+        "img": "https://i.ibb.co/cJWjW2v/5.webp",
+        "gallery": [
+            "https://static.wixstatic.com/media/ead566_accfe36a331741fb81daacaa4d00c94d~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_a15d38945fbf42d98ebe19c0262b157e~mv2.jpg",
+            "https://static.wixstatic.com/media/ead566_7c5fe693f94f46c490659e90dec0771c~mv2.jpg"
+        ],
+        "features": [
+            "100% recyclable.",
+            "Govt Approved, Tested and approved in TUV Rhineland Germany.",
+            "Chemical Free",
+            "Easily Portable takeaway containers",
+            "Odorless tasteless and doesn’t react with hot food",
+            "Lightweight",
+            "Microwavable",
+            "Recyclable and reusable"
+        ],
+        "careGuide":[
+            "Can be reused hundreds of times. Just wash under a tap or in a dishwasher."
+        ]
     }
 ]

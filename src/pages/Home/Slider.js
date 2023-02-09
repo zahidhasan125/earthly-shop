@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Animator, Fade, FadeIn, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, batch } from 'react-scroll-motion';
+import { Animator, FadeIn, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, batch } from 'react-scroll-motion';
 
 const Slider = () => {
     const [items, setItems] = useState([]);
@@ -12,32 +12,26 @@ const Slider = () => {
 
     console.log(items);
     return (
-        <div className="max-w-7xl mx-auto carousel rounded-box my-4">
-            <div className='carousel-item w-full'>
-                <ScrollContainer>
-                    {
-                        items.map(item =>
-                            <ScrollPage>
-                                <div className="w-full">
-                                    <Animator animation={batch(FadeIn(), Sticky(), MoveOut(500, 0), MoveIn(0, 200))}>
-                                        <div className="card w-full shadow-xl image-full">
-                                            <figure><img src={item?.img} alt="Shoes" className="w-full rounded-2xl" /></figure>
-                                            <div className="card-body">
-                                                <h2 className="card-title text-2xl lg:text-7xl font-bold">{item.name}</h2>
-                                                <p className='text-xl font-semibold'>Price: ${item.price}</p>
-                                                <div className="card-actions justify-center">
-                                                    <button className="btn text-white btn-outline rounded-full">View All Products</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Animator>
+        <ScrollContainer>
+            {
+                items.map((item, idx) =>
+                    <ScrollPage key={idx}>
+                        <Animator animation={batch(Sticky(), MoveOut(0, 0), MoveIn(0, 500))}>
+                            <div className="card w-full lg:card-side bg-base-100 shadow-xl">
+                                <figure><img src={item?.img} alt="Album" className='rounded-2xl' /></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title text-2xl lg:text-3xl font-bold">{item.name}</h2>
+                                    <p className='text-xl font-semibold'>Price: €{item.price}</p>
+                                    <div className="card-actions justify-center">
+                                        <button className="btn btn-primary btn-outline rounded-full">View Product</button>
+                                    </div>
                                 </div>
-                            </ScrollPage>
-                        )
-                    }
-                </ScrollContainer>
-            </div>
-        </div>
+                            </div>
+                        </Animator>
+                    </ScrollPage>
+                )
+            }
+        </ScrollContainer>
     );
 };
 
